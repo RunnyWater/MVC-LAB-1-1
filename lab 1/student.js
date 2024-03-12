@@ -6,26 +6,26 @@ console.log(`My name is ${FULLNAME}. Mystudent ID is ${STUDENT_ID}`);
 export function getStudentFullName(id) {
     switch (id) {
        case 0:
-         return FULLNAME, STUDENT_ID;
+         return FULLNAME;
        case 1:
-         return "Kacper Nowaki", "111222";
+         return "Kacper Nowaki";
        case 2:
-         return 'Maja Kowalski', "222333";
+         return 'Maja Kowalski';
        default:
-         return 'Michal Wisniewski', "333444";
+         return 'Michal Wisniewski';
     }
    }
    
    export function getStudentId(id) {
     switch (id) {
         case 0:
-            return FULLNAME, STUDENT_ID;
+            return STUDENT_ID;
           case 1:
-            return "Kacper Nowaki", "111222";
+            return "111222";
           case 2:
-            return 'Maja Kowalski', "222333";
+            return "222333";
           default:
-            return 'Michal Wisniewski', "333444";
+            return "333444";
        }
    }
 

@@ -1,7 +1,7 @@
 import {getStudentFullName, getStudentId} from "./student.js";
 import http from 'http';
 
-console.log(`My name is ${getStudentFullName()}. My student ID is ${getStudentId()}`);
+console.log(`My name is ${getStudentFullName(0)}. My student ID is ${getStudentId(0)}`);
 
 
 const PORT = 3000;
